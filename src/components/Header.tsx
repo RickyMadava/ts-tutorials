@@ -30,8 +30,8 @@ const Header = () => {
           <FaSun />
         </Button>
 
-        <Link to="/signin" className="">
-          <Button gradientDuoTone="purpleToBlue" outline>
+        <Link to="/#" className="">
+          <Button gradientDuoTone="tealToLime" outline>
             Sign In
           </Button>
         </Link>

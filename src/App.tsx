@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import {
   AddTutorial,
   NotFoundPage,
-  Tutorial,
+  TutorialDetails,
   TutorialsList,
 } from "./components";
 import { useEffect } from "react";
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<TutorialsList />} />
         <Route path="/tutorials" element={<TutorialsList />} />
         <Route path="/add" element={<AddTutorial />} />
-        <Route path="/tutorials/:id" element={<Tutorial />} />
+        <Route path="/tutorials/:id" element={<TutorialDetails />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
